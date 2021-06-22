@@ -1,0 +1,204 @@
+
+
+
+
+
+
+.container {
+   display:flex;
+   justify-content:center;
+      align-items:center;
+      height: 560px;
+}
+
+.form{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    background-color:black;
+    padding:4%;
+    width: 420px;
+    box-shadow: 1px 1px 1px 1px #888888;
+
+}
+.form h1{
+    text-align:center;
+    font-size:3rem;
+    color:tomato;
+    
+
+}
+
+label{
+    font-size:2rem;
+    color:cornflowerblue;
+
+}
+h5{
+    font-size:2rem;
+
+
+    color:cornflowerblue;
+
+
+}
+
+
+.card-text{
+    font-size:1.5rem;
+
+    color:black;
+
+
+}
+
+.one{
+    padding:3%;
+    border:none;
+    border-radius: 20px;
+
+    
+   
+}
+
+
+
+.change{
+    margin-left:40%;
+    margin-top:10%;
+}
+
+
+
+input {
+    
+    font-size:1.5rem;
+}
+input[type="submit"]{
+    padding:5%;
+    background-color:white;
+    border-radius: 20px;
+    border:none;
+outline-color: rebeccapurple;
+
+}
+
+.form img{
+    min-height:100%;
+    width:50px;
+
+}
+
+.form p{
+    text-align:center;
+}
+
+.end{
+    display:flex;
+    justify-content:space-between;
+}
+
+.home{
+    
+  display:flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items:center;
+}
+.home div{
+    margin-top: 3%;
+}
+
+@media (max-width:540px){
+    .home{
+    
+        width:80%;
+        margin:5% auto
+    }
+
+}
+
+.header-img{
+    width:70px;
+    height: 70px;
+    margin-left: 5%;
+    margin-top: 2%;
+
+    border-radius: 50%;
+
+}
+
+
+.p{
+    font-size:2.5rem;
+    margin-left: 5%;
+  
+
+    color:tomato;
+
+}
+
+.card-img-top{
+    height: 260px;
+}
+
+.img-area{
+    width: 100px;
+    height: 100px;
+    border: 1px solid gray;
+}
+
+.form span{
+    padding-top:2%;
+}
+
+.like{
+    color:red;
+    font-size: 30px;
+}
+
+.unlike{
+
+
+    font-size: 30px;
+}
+
+
+
+
+.fa-thumbs-down{
+    color:black;
+    font-size: 30px;
+
+}
+
+
+.comment{
+    padding-top: 3%;
+    border:none;
+    background-color:white;
+    border-bottom: 1px solid gray;
+    width:100%
+}
+
+h6 .s-one{
+
+    padding: 3%;
+}
+
+h6 span{
+    font-size:1.5rem;
+
+}
+
+.btn-heart{
+margin-top: 3%;
+background-color:lightblue;
+
+}
+
+.btn{
+    background-color:tomato
+    
+}
+
